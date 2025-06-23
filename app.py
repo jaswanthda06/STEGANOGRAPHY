@@ -6,6 +6,7 @@ from steganography import AdvancedSteganography
 import uuid
 from PIL import Image
 
+
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
 
