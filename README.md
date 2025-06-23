@@ -50,14 +50,11 @@ steganography-tool/
 1. **Start the web server:**
    ```bash
    python main.py
-   # or
-   gunicorn --bind 0.0.0.0:5000 --reuse-port --reload main:app
+  
    ```
 
 2. **Open your browser and navigate to:**
-   ```
-   http://localhost:5000
-   ```
+ 
 
 3. **Use the interface to:**
    - **Hide Message**: Upload an image, enter your secret message, optionally set an encryption key
@@ -160,3 +157,4 @@ The application includes comprehensive error handling for:
 3. Extract and view the hidden message
 
 ## License
+This project is open source and available under the MIT License.
